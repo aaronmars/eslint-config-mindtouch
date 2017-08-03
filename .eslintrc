@@ -1,0 +1,6 @@
+{
+    "extends": "mindtouch",
+    "env": {
+        "node": true
+    }
+}
