@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mindtouch",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ESLint rules for MindTouch JavaScript projects",
   "main": "index.js",
   "repository": "https://github.com/MindTouch/eslint-config-mindtouch",
