@@ -126,7 +126,11 @@ module.exports = {
         'semi': [ 1, 'always' ],
         'semi-spacing': [ 1, { 'before': false, 'after': true } ],
         'space-before-blocks': 1,
-        'space-before-function-paren': [ 1, 'never' ],
+        'space-before-function-paren': [ 1, {
+            "anonymous": "never",
+            "named": "never",
+            "asyncArrow": "always"
+        } ],
         'space-in-parens': [ 1, 'never' ],
         'space-infix-ops': 1,
         'space-unary-ops': [ 1, { 'words': true, 'nonwords': false } ],
