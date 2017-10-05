@@ -10,5 +10,9 @@
     "eslint",
     "eslintconfig",
     "mindtouch"
-  ]
+  ],
+  "dependencies": {
+    "eslint-plugin-prettier": "^2.3.1",
+    "prettier": "^1.7.4"
+  }
 }
