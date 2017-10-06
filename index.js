@@ -1,7 +1,14 @@
 module.exports = {
     plugins: ['prettier'],
     rules: {
-        'prettier/prettier': ['error'],
+        'prettier/prettier': [
+            'error',
+            {
+                singleQuote: true,
+                tabWidth: 4,
+                printWidth: 120
+            }
+        ],
 
         // Possible Errors
         'no-cond-assign': 1,
